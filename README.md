@@ -5,6 +5,8 @@ DRSO (Defensive Response to Scoring Opportunities) (Umemoto *et al.*, StatsBomb 
 **EF-OBSO**: How to calculate OBSO with Event and Freeze Frame data.<br>
 **DRSO**: How to identify a defender' optimal position.<br>
 
+![](https://github.com/Rikuhei-ynwa/DRSO/blob/main/fig/drso_image.png)
+
 See the following slides if you want to know details.<br>
 [2023statsbomb_umemoto_slides.pptx](https://github.com/Rikuhei-ynwa/DRSO/blob/main/2023statsbomb_umemoto_slides.pptx)
 
