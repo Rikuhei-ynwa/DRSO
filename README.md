@@ -50,9 +50,11 @@ python3 -m pip install -r requirements.txt
 ## Reference
 
 ```
-@article{umemotoevaluation,
+@inproceedings{umemoto2023drso,
   title={Evaluation of Team Defense Positioning by Computing Counterfactuals using StatsBomb 360 data},
-  author={Umemoto, Rikuhei and Fujii, Keisuke}
+  author={Umemoto, Rikuhei and Fujii, Keisuke},
+  booktitle={StatsBomb Conference},
+  year={2023}
 }
 ```
 
