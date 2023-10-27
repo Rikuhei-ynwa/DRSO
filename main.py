@@ -25,7 +25,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--count", type=int)
 parser.add_argument("--data", type=str, default="statsbomb")
 parser.add_argument("--game", type=str, default="all")
-parser.add_argument("--seed", type=int, default=0)
 parser.add_argument("--set_vel", type=float, default=0.0)
 parser.add_argument("--skip_load_rawdata", action="store_true")
 parser.add_argument("--skip_compare_the_number_of_players", action="store_true")
@@ -41,8 +40,6 @@ pickle.HIGHEST_PROTOCOL = args.pickle
 
 start = time.time()
 
-random.seed(args.seed)
-np.random.seed(args.seed)
 
 datafolder = f"../DRSO_data/data-{args.data}/" + args.game
 os.makedirs(datafolder, exist_ok=True)
